@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* { /*tirando as margens*/
+    margin:0;
+}
+
+@font-face {
+    font-family: "fontefora", Arial, Helvetica, sans-serif;
+    src: url("fontes/idroid.otf");
+    format: otf;
+}
+
+body {
+    background-color: rgb(156, 241, 194);
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #11af1194, rgba(2, 44, 2, 0.61));
+    color: white;
+    text-align: center;
+    text-shadow:2px 2px 2px black;
+}
+
+nav {
+    text-align: left;
+    padding-left: 15px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 6px;
+    font-size: 13px;
+}
+a:hover{
+    background-color: rgba(255, 245, 226, 0.363);
+
+}
+main {
+    background-color: white;
+    width: 700px;
+    height: 2200px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 0 10px 0 10px;
+}
+
+article > p {
+    text-align: justify;
+    padding: 10px 10px 0px 10px ;
+    text-indent: 20px;
+}
+
+h1#text {
+    padding-top: 10px;
+    color: darkgreen;
+    font-size: 30px;
+    text-shadow:1px 1px 1px black;
+}
+
+h2 {
+    background-color: rgba(162, 243, 162, 0.205);
+    margin: 10px ;
+    color: darkgreen;
+    text-shadow:1px 1px 1px black;
+
+}
+
+h4 {
+    padding: 20px 0 20px 0;
+}
+
+aside > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+aside#a1 {
+    width: 680px;
+    height: 400px;
+    background-color: rgb(189, 247, 189);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+aside#a1 > h4 {
+background-color: rgb(3, 172, 3);
+margin: 0px 0px 0px 10px;
+border-radius: 15px;
+color: white;
+text-shadow: 2px 2px 2px black;
+text-align: left;
+text-indent: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type:"\2714\00A0\00A0";
+
+}
+
+aside {
+    padding-top: 10px;
+}
+
+footer > p::before {
+content: "©";
+}
+
+footer {
+height: 20px;
+width: 1300px;
+background-color: rgb(5, 201, 5);
+color: black;
+text-align: center;
+box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.473); 
+padding: 2px;
+}
